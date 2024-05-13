@@ -10,6 +10,7 @@ app.use('/numbers', require('./routes/numbers'));
 app.use('/square', require('./routes/square'));
 app.use('/contact', require('./routes/contact'));
 app.use('/posts', require('./routes/posts'));
+app.use('/students', require('./routes/students'));
 
 const port = 5000;
 

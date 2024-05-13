@@ -5,7 +5,6 @@ const squareNumber = (req, res) => {
             {
                 throw Error(message = "num not found")
             }
-
         res.send({
             num_squared: num * num
         })
